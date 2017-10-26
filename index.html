@@ -1,0 +1,240 @@
+<!--
+It's just that LAZY! Easy template for LAZY coding!
+===================================================
++ This template is HTML5 semantic, but you can swap the tags to <div>.
++ It is a 10-grid system.
++ It targets common tablet and mobile devices.
++ On tablet it shows max 3 columns for major content blocks.
++ On Mobile it shows only 1 column.
++ The entire template is less than 20KB.
++ It uses FLEXBOX and serves no due delegence for old IEs.
+===================================================
+To switch things on and off - the LAZY way:
++ To remove aside, simply insert class "remove" onto <aside>.
++ To reverse aside to the right, simply insert class "reverse" onto <body>.
++ To turn specific row of columns into full width, simply insert class "full" onto the row element.
++ You can turn the logo area into a nav menu if you like.
+===================================================
+LAZY and easy enough? Huh? :-P
+I've done most of the work for you, included calculating all percentages and proportions!
+It's sooo simple that you can easily add anything on top of this layout structure.
+-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zoe Chang">
+    <title>LAZY Responsive Webpage Template</title>
+    <style>
+    /* CUSTOM : Dump your stuff or tweak here */
+    body { background: #000; }
+    aside { width: 18%; float: left; background: #fff; position: fixed; height: 100%; margin: 0; padding: 1%; }
+    main { width: 78%; float: right; margin: 1%; }
+    article { background: #fff; }
+    nav a { float: left; display: inline-block; width: 100%; box-sizing: border-box; padding: 1rem; border-bottom: 1px solid #fff; background: #000; color: #fff; text-decoration: none; margin-bottom: 20px; }
+    nav a:hover, nav a:active, nav a:focus { background-color: #666; color: #fff; }
+    img { width: 100%; max-width: 480px; float: left; }
+    a { color: #666; display: block; font-weight: bold; }
+    h4 { color: #666; }
+    header, footer { color: #fff; padding: 1%; text-align: center; }
+
+	/* RESET : Basic settings - The Lazier the better! */
+    html { height: 100%; }
+    body { margin: 0; padding: 0; font-family: arial, sans-serif; font-size: 1em; }
+
+    /* LAZY PRESET : No need to touch - As Lazy as possible! */
+    .row { float: left; width: 100%; display: flex; margin: 0; }
+	.col_10 { width: 100%; }
+	.col_9 { width: 90%; }
+	.col_8 { width: 80%; }
+	.col_7 { width: 70%; }
+	.col_6 { width: 60%; }
+	.col_5 { width: 50%; }
+	.col_4 { width: 40%; }
+	.col_3 { width: 30%; }
+	.col_2 { width: 20%; }
+	.col_1 { width: 10%; }
+	[class^="col"] { float: left; margin: 1%; padding: 1%; flex: 1 auto; }
+	.reverse { display: flex; }
+	.reverse aside { top: 0; right: 0; }
+	.remove { display: none; }
+	.remove + main { width: 98%; }
+
+	/* RESPONSIVE */
+	@media (max-width: 767px) {
+	    aside { width: 94%; height: auto; position: relative; margin-left: 2%; }
+	    main { width: 98% }
+	    .row { margin: 0; }
+	    [class^="col"] { width: 100%; }
+	    .full, .full article { display: block; width: 98%; }
+	}
+	@media (max-width: 480px) {
+		.row { display: block; }
+	    [class^="col"] { width: 96%; }
+	}
+    </style>
+</head>
+
+<body>
+    <aside>
+        <nav>
+            <a href="#">LOGO</a>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut.
+            </p>
+        </nav>
+        <a href="#">Your Link 1 Here</a>
+        <a href="#">Your Link 2 Here</a>
+        <a href="#">Your Link 3 Here</a>
+    </aside>
+    <main>
+    <header>
+    	<h1>LAZY Responsive Webpage Template</h1>
+    </header>
+        <section class="row">
+            <article class="col_10">
+                <h4>Full 10-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Amet mattis vulputate enim nulla. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Molestie nunc non blandit massa enim. Vitae turpis massa sed elementum tempus egestas. Erat velit scelerisque in dictum. Egestas sed sed risus pretium. A diam maecenas sed enim ut sem viverra. Molestie nunc non blandit massa enim.
+                </p>
+            </article>
+        </section>
+        <section class="row full">
+            <article class="col_1">
+                <h4>1-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non.s
+                </p>
+            </article>
+            <article class="col_9">
+                <h4>9-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Amet mattis vulputate enim nulla. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Molestie nunc non blandit massa enim. Vitae turpis massa sed elementum tempus egestas. Erat velit scelerisque in dictum. Egestas sed sed risus pretium. A diam maecenas sed enim ut sem viverra. Molestie nunc non blandit massa enim.
+                </p>
+                <p>
+                    Lacus vel facilisis volutpat est velit. Ut morbi tincidunt augue interdum velit. Sit amet consectetur adipiscing elit. Ut diam quam nulla porttitor. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Ut tortor pretium viverra suspendisse potenti. Facilisi cras fermentum odio eu feugiat. Eu non diam phasellus vestibulum lorem sed. Augue neque gravida in fermentum et sollicitudin ac. At volutpat diam ut venenatis tellus in. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Libero justo laoreet sit amet cursus sit. Tortor posuere ac ut consequat semper viverra nam. Pharetra et ultrices neque ornare aenean euismod elementum. Sem et tortor consequat id porta nibh venenatis cras sed. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus.
+                </p>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_2">
+                <h4>2-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+            <article class="col_8">
+                <h4>8-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_3">
+                <h4>3-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut.
+                </p>
+                <img src="http://via.placeholder.com/500x200">
+            </article>
+            <article class="col_7">
+                <h4>7-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_4">
+                <h4>4-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+            <article class="col_6">
+                <h4>6-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_5">
+                <h4>5-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+            <article class="col_5">
+                <h4>5-Column</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Est sit amet facilisis magna etiam tempor orci eu. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. At risus viverra adipiscing at in.
+                </p>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_6">
+                <h4>6-Column</h4>
+            </article>
+            <article class="col_3">
+                <h4>3-Column</h4>
+            </article>
+            <article class="col_1">
+                <h4>1-Column</h4>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_7">
+                <h4>7-Column</h4>
+            </article>
+            <article class="col_2">
+                <h4>2-Column</h4>
+            </article>
+            <article class="col_1">
+                <h4>1-Column</h4>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_2">
+            </article>
+            <article class="col_2">
+            </article>
+            <article class="col_2">
+            </article>
+            <article class="col_2">
+            </article>
+            <article class="col_2">
+            </article>
+        </section>
+        <section class="row">
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+            <article class="col_1">
+            </article>
+        </section>
+        <footer>
+        	&copy; 2017 Whatever
+        </footer>
+    </main>
+</body>
+
+</html>
