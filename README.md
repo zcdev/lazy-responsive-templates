@@ -13,14 +13,14 @@ It's just that LAZY! Easy template for LAZY coding!
 <br>
 ===================================================
 <br>
-To switch things on and off - the LAZY way:
-+ To remove aside, simply insert class "remove" onto &lt;aside&gt;.
-+ To reverse aside to the right, simply insert class "reverse" onto &lt;body&gt;.
-+ To turn specific row of columns into full width, simply insert class "full" onto the row element.
+To switch things on and off - the LAZY way:<br>
++ To remove aside, simply insert class "remove" onto &lt;aside&gt;.<br>
++ To reverse aside to the right, simply insert class "reverse" onto &lt;body&gt;.<br>
++ To turn specific row of columns into full width, simply insert class "full" onto the row element.<br>
 + You can turn the logo area into a nav menu if you like.
 <br>
 ===================================================
 <br>
-LAZY and easy enough? Huh? :-P
-I've done most of the work for you, included calculating all percentages and proportions!
+LAZY and easy enough? Huh? :-P<br>
+I've done most of the work for you, included calculating all percentages and proportions!<br>
 It's sooo simple that you can easily add anything on top of this layout structure.
