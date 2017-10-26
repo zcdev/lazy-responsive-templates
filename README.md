@@ -32,6 +32,9 @@ Preview for default layout: http://zoechang.me/lazy.html<br>
 CSS only file is also available in this repo. Enjoy!
 </p>
 <p>
+Special thanks to the QA Tester of this project: André Martinez @ableandre.
+</p>
+<p>
 Cheers,<br>
 Zoe
 </p>
