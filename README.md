@@ -1,6 +1,6 @@
 # LAZY
 LAZY Responsive Webpage Template
-
+Preview for default layout: http://zoechang.me/lazy.html
 It's just that LAZY! Easy template for LAZY coding!
 ===================================================
 + This template is HTML5 semantic, but you can swap the tags to &lt;div&gt;.
