@@ -13,7 +13,7 @@ It's just that LAZY! Easy template for LAZY coding!
 <li> It uses FLEXBOX and serves no due delegence for old IEs.</li>
 </ul>
 <hr>
-To switch things on and off - the LAZY way:
+<strong>To switch things on and off - the LAZY way:</strong><br>
 <ul>
 <li> To remove aside, simply insert class "remove" onto &lt;aside&gt;.</li>
 <li> To reverse aside to the right, simply insert class "reverse" onto &lt;body&gt;.</li>
