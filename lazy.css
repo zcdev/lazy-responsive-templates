@@ -1,50 +1,50 @@
 /* CSS file only for LAZY Responsive Webpage Template: SO LAZY, only 50 lines. */
 
-    /* RESET : Basic settings - The Lazier the better! */
-    	html { height: 100%; }
-    	body { margin: 0; padding: 0; font-family: arial, sans-serif; font-size: 1em; }
+/* RESET : Basic settings - The Lazier the better! */
+        html { height: 100%; }
+        body { margin: 0; padding: 0; font-family: arial, sans-serif; font-size: 1em; }
 
-    /* LAZY PRESET : No need to touch - As Lazy as possible! */
-    	.row { float: left; width: 100%; display: flex; margin: 0; }
-	.col_10 { width: 100%; }
-	.col_9 { width: 90%; }
-	.col_8 { width: 80%; }
-	.col_7 { width: 70%; }
-	.col_6 { width: 60%; }
-	.col_5 { width: 50%; }
-	.col_4 { width: 40%; }
-	.col_3 { width: 30%; }
-	.col_2 { width: 20%; }
-	.col_1 { width: 10%; }
-	[class^="col"] { float: left; margin: 1%; padding: 1%; flex: 1 auto; }
-	.reverse { display: flex; }
-	.reverse aside { top: 0; right: 0; }
-	.remove { display: none; }
-	.remove + main { width: 98%; }
-	    
-    /* DEFAULT DESIGN : For your convenience */
-   	body { background: #000; }
-	aside { width: 18%; float: left; background: #fff; position: fixed; height: 100%; margin: 0; padding: 1%; }
-	main { width: 78%; float: right; margin: 1%; }
-	article { background: #fff; }
-	nav a { float: left; display: inline-block; width: 100%; box-sizing: border-box; padding: 1rem; border-bottom: 1px solid #fff; background: #000; color: #fff; text-decoration: none; margin-bottom: 20px; }
-	nav a:hover, nav a:active, nav a:focus { background-color: #666; color: #fff; }
-	img { width: 100%; max-width: 480px; float: left; }
-	a { color: #666; display: block; font-weight: bold; }
-	h4 { color: #666; }
-	header, footer { color: #fff; padding: 1%; text-align: center; }
+/* LAZY PRESET : No need to touch - As Lazy as possible! */
+        .row { float: left; width: 100%; display: flex; margin: 0; }
+        .col_10 { width: 100%; }
+        .col_9 { width: 90%; }
+        .col_8 { width: 80%; }
+        .col_7 { width: 70%; }
+        .col_6 { width: 60%; }
+        .col_5 { width: 50%; }
+        .col_4 { width: 40%; }
+        .col_3 { width: 30%; }
+        .col_2 { width: 20%; }
+        .col_1 { width: 10%; }
+        [class^="col"] { float: left; margin: 1%; padding: 1%; flex: 1 auto; }
+        .reverse { display: flex; }
+        .reverse aside { top: 0; right: 0; }
+        .remove { display: none; }
+        .remove + main { width: 98%; }
+        
+/* DEFAULT DESIGN : For your convenience */
+        body { background: #000; }
+        aside { width: 18%; float: left; background: #fff; position: fixed; height: 100%; margin: 0; padding: 1%; }
+        main { width: 78%; float: right; margin: 1%; }
+        article { background: #fff; }
+        nav a { float: left; display: inline-block; width: 100%; box-sizing: border-box; padding: 1rem; border-bottom: 1px solid #fff; background: #000; color: #fff; text-decoration: none; margin-bottom: 20px; }
+        nav a:hover, nav a:active, nav a:focus { background-color: #666; color: #fff; }
+        img { width: 100%; max-width: 480px; float: left; }
+        a { color: #666; display: block; font-weight: bold; }
+        h4 { color: #666; }
+        header, footer { color: #fff; padding: 1%; text-align: center; }
 
-    /* RESPONSIVE */
-	@media (max-width: 767px) {
-	    aside { width: 94%; height: auto; position: relative; margin-left: 2%; }
-	    main { width: 98% }
-	    .row { margin: 0; }
-	    [class^="col"] { width: 100%; }
-	    .full, .full article { display: block; width: 98%; }
-	}
-	@media (max-width: 480px) {
-		.row { display: block; }
-	    [class^="col"] { width: 96%; }
-	}
-	    
-    /* CUSTOM : Dump your stuff or tweak here */
+/* RESPONSIVE */
+    @media (max-width: 767px) {
+        aside { width: 94%; height: auto; position: relative; margin-left: 2%; }
+        main { width: 98% }
+        .row { margin: 0; }
+        [class^="col"] { width: 100%; }
+        .full, .full article { display: block; width: 98%; }
+    }
+    @media (max-width: 480px) {
+        .row { display: block; }
+        [class^="col"] { width: 96%; }
+    }
+        
+/* CUSTOM : Dump your stuff or tweak here */
