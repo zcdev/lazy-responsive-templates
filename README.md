@@ -17,7 +17,7 @@
 <ul>
 <li> To remove aside, simply insert class "remove" onto &lt;aside&gt;.</li>
 <li> To reverse aside to the right, simply insert class "reverse" onto &lt;body&gt;.</li>
-<li> To turn specific row of columns into full width, simply insert class "full" onto the row element.</li>
+<li> To turn specific row of columns into full width for responsive views, simply insert class "full" onto the row element.</li>
 <li> You can turn the logo area into a nav menu if you like.</li>
 </ul>
 <p>
