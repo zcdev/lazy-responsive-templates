@@ -1,8 +1,6 @@
 # <h1>LAZY Responsive Webpage Template</h1>
 <br>
-It's just that LAZY! Easy template for LAZY coding!
-<br>
-<hr>
+<strong>It's just that LAZY! Easy template for LAZY coding!</strong><br>
 <ul>
 <li> This template is HTML5 semantic, but you can swap the tags to &lt;div&gt;.</li>
 <li> It is a 10-grid system.</li>
