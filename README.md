@@ -1,6 +1,5 @@
 # LAZY
 LAZY Responsive Webpage Template<br>
-http://zoechang.me/lazy.html<br><br>
 It's just that LAZY! Easy template for LAZY coding!
 ===================================================
 + This template is HTML5 semantic, but you can swap the tags to &lt;div&gt;.
@@ -23,4 +22,6 @@ To switch things on and off - the LAZY way:<br>
 <br>
 LAZY and easy enough? Huh? :-P<br>
 I've done most of the work for you, included calculating all percentages and proportions!<br>
-It's sooo simple that you can easily add anything on top of this layout structure.
+It's sooo simple that you can easily add anything on top of this layout structure.<br><br>
+
+Preview for default layout: http://zoechang.me/lazy.html
