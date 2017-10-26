@@ -38,3 +38,5 @@ Special thanks to the QA Tester of this project: André Martinez @ableandre.
 Cheers,<br>
 Zoe
 </p>
+# <h1>LAZY Responsive Email Template</h1>
+<p>Coming soon!</p>
