@@ -38,7 +38,7 @@
     /* RESPONSIVE */
     @media (max-width: 767px) {
         aside { width: 96%; height: auto; position: relative; margin-left: 2%; }
-        main { width: 98% }
+        main { width: 98%; }
         [class^="col"] { width: 100%; }
         .full, .full article { display: block; width: 99%; }
         .reverse { display: block; }
