@@ -1,11 +1,12 @@
-/* CSS only file for LAZY Responsive Webpage Template: SO LAZY, only 50 lines. */
+/* CSS only file for LAZY Responsive Webpage Template by Zoe Chang: SO LAZY, only 50 lines. */
 
-/* RESET : Basic settings - The Lazier the better! */
-        html { height: 100%; }
+    /* RESET : Basic settings - The Lazier the better! */
+        html { height: 100%; box-sizing: border-box; }
         body { margin: 0; padding: 0; font-family: arial, sans-serif; font-size: 1em; }
+        *, *:before, *:after { box-sizing: inherit; }
 
-/* LAZY PRESET : No need to touch - As Lazy as possible! */
-        .row { float: left; width: 100%; display: flex; margin: 0; }
+    /* LAZY PRESET : No need to touch - As Lazy as possible! */
+        .row { float: left; width: 100%; display: flex; margin: 1% 0; }
         .col_10 { width: 100%; }
         .col_9 { width: 90%; }
         .col_8 { width: 80%; }
@@ -16,16 +17,16 @@
         .col_3 { width: 30%; }
         .col_2 { width: 20%; }
         .col_1 { width: 10%; }
-        [class^="col"] { float: left; margin: 1%; padding: 1%; flex: 1 auto; }
+        [class^="col"] { float: left; margin: 0 1%; padding: 1%; flex: 1 auto; }
         .reverse { display: flex; }
         .reverse aside { top: 0; right: 0; }
         .remove { display: none; }
-        .remove + main { width: 98%; }
+        .remove + main { width: 100%; }
         
-/* DEFAULT DESIGN : For your convenience */
+    /* DEFAULT DESIGN : For your convenience */
         body { background: #000; }
-        aside { width: 18%; float: left; background: #fff; position: fixed; height: 100%; margin: 0; padding: 1%; }
-        main { width: 78%; float: right; margin: 1%; }
+        aside { width: 19%; float: left; background: #fff; position: fixed; height: 100%; margin: 0; padding: 1%; }
+        main { width: 79%; float: right; margin: 1%; }
         article { background: #fff; }
         nav a { float: left; display: inline-block; width: 100%; box-sizing: border-box; padding: 1rem; border-bottom: 1px solid #fff; background: #000; color: #fff; text-decoration: none; margin-bottom: 20px; }
         nav a:hover, nav a:active, nav a:focus { background-color: #666; color: #fff; }
@@ -34,17 +35,17 @@
         h4 { color: #666; }
         header, footer { color: #fff; padding: 1%; text-align: center; }
 
-/* RESPONSIVE */
+    /* RESPONSIVE */
     @media (max-width: 767px) {
-        aside { width: 94%; height: auto; position: relative; margin-left: 2%; }
+        aside { width: 96%; height: auto; position: relative; margin-left: 2%; }
         main { width: 98% }
         .row { margin: 0; }
         [class^="col"] { width: 100%; }
-        .full, .full article { display: block; width: 98%; }
+        .full, .full article { display: block; width: 99%; }
     }
     @media (max-width: 480px) {
         .row { display: block; }
-        [class^="col"] { width: 96%; }
+        [class^="col"] { width: 98%; }
     }
         
-/* CUSTOM : Dump your stuff or tweak here */
+    /* CUSTOM : Dump your stuff or tweak here */
