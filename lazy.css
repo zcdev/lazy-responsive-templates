@@ -1,4 +1,4 @@
-/* CSS only file for LAZY Responsive Webpage Template by Zoe Chang: SO LAZY, only 50 lines. */
+/* CSS only file for LAZY Responsive Webpage Template by Zoe Chang */
 
     /* RESET : Basic settings - The Lazier the better! */
         html { height: 100%; box-sizing: border-box; }
@@ -33,6 +33,7 @@
         a { color: #666; display: block; font-weight: bold; }
         h4 { color: #666; }
         header, footer { color: #fff; padding: 0.5rem; text-align: center; }
+
     /* RESPONSIVE */
     @media (max-width: 768px) {
         aside { width: 100%; height: auto; position: relative; }
@@ -44,8 +45,9 @@
     }
     @media (max-width: 480px) {
         [class^="col"] { width: 100%; margin: 0.5% 0; }
-        .row { display: block; }
+        .row { display: block; margin: 0;}
         .full { width: 100%; }
+        .full article { width: 100%; display: block; margin: 0.5% 0;}
     }
         
     /* CUSTOM : Dump your stuff or tweak here */
