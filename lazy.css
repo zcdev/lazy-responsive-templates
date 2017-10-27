@@ -39,8 +39,8 @@
     @media (max-width: 767px) {
         aside { width: 100%; height: auto; position: relative; }
         main { width: 98%; }
-        [class^="col"] { width: 100%; }
-        .full { width: 97%; display: block; }
+        [class^="col"] { width: 99%; margin: 1%;}
+        .full { width: 99%; display: block; margin: 0; }
         .reverse { display: block; }
     }
     @media (max-width: 480px) {
