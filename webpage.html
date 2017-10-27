@@ -1,3 +1,4 @@
+
 <!--
 It's just that LAZY! Easy template for LAZY coding!
 ===================================================
@@ -34,7 +35,7 @@ It's sooo simple that you can easily add anything on top of this layout structur
         *, *:before, *:after { box-sizing: inherit; }
 
     /* LAZY PRESET : No need to touch - As Lazy as possible! */
-        .row { float: left; width: 100%; display: flex; }
+        .row { float: left; width: 100%; display: flex; margin: 1% 0; }
         .col_10 { width: 100%; }
         .col_9 { width: 90%; }
         .col_8 { width: 80%; }
@@ -45,7 +46,7 @@ It's sooo simple that you can easily add anything on top of this layout structur
         .col_3 { width: 30%; }
         .col_2 { width: 20%; }
         .col_1 { width: 10%; }
-        [class^="col"] { float: left; margin: 0.5rem; padding: 0.5rem; flex: 1 auto; }
+        [class^="col"] { float: left; margin: 0 1%; padding: 0.5rem; flex: 1 auto; }
         .reverse { display: flex; }
         .reverse aside { top: 0; right: 0; }
         .remove { display: none; }
@@ -67,9 +68,9 @@ It's sooo simple that you can easily add anything on top of this layout structur
     @media (max-width: 768px) {
         aside { width: 100%; height: auto; position: relative; }
         main { width: 98%; }
-        [class^="col"] { width: 98%; margin: 1%; }
-        .full { width: 100%; display: block; }
-        .full article { width: 98%; }
+        [class^="col"] { width: 100%; }
+        .full { width: 98%; display: block; margin: 0; }
+        .full article { display: block; margin: 1%;}
         .reverse { display: block; }
     }
     @media (max-width: 480px) {
