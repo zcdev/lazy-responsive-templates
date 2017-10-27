@@ -8,7 +8,7 @@
 <li> It targets common tablet and mobile devices.</li>
 <li> On Tablet it shows max 3 columns for major content blocks.</li>
 <li> On Mobile it shows only 1 column.</li>
-<li> The entire template is less than 20KB.</li>
+<li> The entire template is less than 15KB.</li>
 <li> It uses FLEXBOX and serves no due delegence for old IEs.</li>
 </ul>
 <p>
