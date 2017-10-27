@@ -1,4 +1,4 @@
-<!-- LAZY Responsive Webpage Template by Zoe Chang
+<!--
 It's just that LAZY! Easy template for LAZY coding!
 ===================================================
 + This template is HTML5 semantic, but you can swap the tags to <div>.
@@ -12,7 +12,7 @@ It's just that LAZY! Easy template for LAZY coding!
 To switch things on and off - the LAZY way:
 + To remove aside, simply insert class "remove" onto <aside>.
 + To reverse aside to the right, simply insert class "reverse" onto <body>.
-+ To turn specific row of columns into full width for responsive views, simply insert class "full" onto the row element.
++ To turn specific row of columns into full width, simply insert class "full" onto the row element.
 + You can turn the logo area into a nav menu if you like.
 ===================================================
 LAZY and easy enough? Huh? :-P
@@ -67,8 +67,9 @@ It's sooo simple that you can easily add anything on top of this layout structur
     @media (max-width: 768px) {
         aside { width: 100%; height: auto; position: relative; }
         main { width: 98%; }
-        .full { width: 98%; display: block; margin: 0; }
-        .full article { width: 100%; }
+        [class^="col"] { width: 98%; margin: 1%; }
+        .full { width: 100%; display: block; }
+        .full article { width: 98%; }
         .reverse { display: block; }
     }
     @media (max-width: 480px) {
