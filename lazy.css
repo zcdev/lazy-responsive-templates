@@ -21,7 +21,7 @@
         .reverse { display: flex; }
         .reverse aside { top: 0; right: 0; }
         .remove { display: none; }
-        .remove + main { width: 100%; }
+        .remove + main { width: 98%; }
         
     /* DEFAULT DESIGN : For your convenience */
         body { background: #000; }
