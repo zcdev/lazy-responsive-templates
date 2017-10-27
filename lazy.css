@@ -41,6 +41,7 @@
         main { width: 98% }
         [class^="col"] { width: 100%; }
         .full, .full article { display: block; width: 99%; }
+        .reverse { display: block; }
     }
     @media (max-width: 480px) {
         .row { display: block; margin: 0; }
