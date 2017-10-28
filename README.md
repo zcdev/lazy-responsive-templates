@@ -52,7 +52,7 @@ It renders perfectly on:
   <li>Comcast</li>
   <li>Thunderbird</li>
 </ul>
-<p>Now, the LAZY method can help put your mind at ease :-)</p>
+<p>Now, the LAZY method can help putting your mind at ease :-)</p>
 <p>
 Special thanks to the QA Tester of this project: André Martinez @ableandre.
 </p>
