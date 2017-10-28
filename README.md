@@ -28,7 +28,7 @@ I've done most of the work for you, included calculating all percentages and pro
 It's sooo simple that you can easily add anything on top of this layout structure.
 </p>
 <p>
-Preview for default layout: http://zoechang.me/lazy.html<br>
+Preview for default layout: http://zoechang.me/lazy-webpage.html<br>
 CSS only file is also available in this repo. Enjoy!
 </p>
 <h1>LAZY Responsive Email Template</h1>
@@ -53,6 +53,7 @@ It renders perfectly on:
   <li>Thunderbird</li>
 </ul>
 <p>Now, the LAZY method can help putting your mind at ease :-)</p>
+<p>Preview for default layout: http://zoechang.me/lazy-email.html</p>
 <p>
 Special thanks to the QA Tester of this project: André Martinez @ableandre.
 </p>
