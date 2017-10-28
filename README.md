@@ -31,6 +31,28 @@ It's sooo simple that you can easily add anything on top of this layout structur
 Preview for default layout: http://zoechang.me/lazy.html<br>
 CSS only file is also available in this repo. Enjoy!
 </p>
+<h1>LAZY Responsive Email Template</h1>
+<p>Afraid of bloated code for your email template due to the gigantic list of email clients you need to support?<br>
+No worries! This email template works for major email clients without the need of complex coding.<br>
+It renders perfectly on:
+</p>
+<ul>
+  <li>Outlook (2011-2016)</li>
+  <li>All Gmails and Apps</li>
+  <li>Apple Mail</li>
+  <li>Outlook.com</li>
+  <li>Yahoo.com</l>
+  <li>AOL</li>
+  <li>iOS</li>
+  <li>Android (5-7)</li>
+  <li>iPhone</li>
+  <li>iPad</li>
+  <li>OSX (10+)</li>
+  <li>Windows (7+)</li>
+  <li>Comcast</li>
+  <li>Thunderbird</li>
+</ul>
+<p>Now, the LAZY method can help put your mind at ease :-)</p>
 <p>
 Special thanks to the QA Tester of this project: André Martinez @ableandre.
 </p>
@@ -38,5 +60,3 @@ Special thanks to the QA Tester of this project: André Martinez @ableandre.
 Cheers,<br>
 Zoe
 </p>
-# <h1>LAZY Responsive Email Template</h1>
-<p>Coming soon!</p>
