@@ -31,7 +31,7 @@ It's sooo simple that you can easily add anything on top of this layout structur
     <style>
     /* RESET : Basic settings - The Lazier the better! */
         html { height: 100%; box-sizing: border-box; }
-        body { margin: 0; padding: 0; font-family: arial, sans-serif; font-size: 1em; }
+        body { margin: 0; padding: 0; }
         *, *:before, *:after { box-sizing: inherit; }
 
     /* LAZY PRESET : No need to touch - As Lazy as possible! */
@@ -52,12 +52,12 @@ It's sooo simple that you can easily add anything on top of this layout structur
         .remove { display: none; }
         .remove + main { width: 98%; }
         
-    /* DEFAULT DESIGN : For your convenience */
-        body { background: #000; }
+    /* DEFAULT DESIGN : For your convenience but can be removed */
+        body { background: #000; font-family: arial, sans-serif; font-size: 1em; }
         aside { width: 19%; float: left; background: #fff; position: fixed; height: 100%; margin: 0; padding: 0.5rem; }
         main { width: 79%; float: right; margin: 1%; }
         article { background: #fff; }
-        nav a { float: left; display: inline-block; width: 100%; box-sizing: border-box; padding: 1rem; border-bottom: 1px solid #fff; background: #000; color: #fff; text-decoration: none; margin-bottom: 20px; }
+        nav a { float: left; display: inline-block; width: 100%; padding: 1rem; border-bottom: 1px solid #fff; background: #000; color: #fff; text-decoration: none; margin-bottom: 20px; }
         nav a:hover, nav a:active, nav a:focus { background-color: #666; color: #fff; }
         img { width: 100%; max-width: 480px; float: left; }
         a { color: #666; display: block; font-weight: bold; }
